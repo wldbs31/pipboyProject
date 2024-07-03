@@ -169,11 +169,13 @@ ul>li.navbar-item.active>a.nav-link {
 
 .navbar.navbar-light.pip-footer {
     border: none;
+    font-size: 22px;
 }
 
 .navbar.pip-footer .col-3,
 .navbar.pip-footer .col-6 {
     background: rgb(0, 255, 20, .15);
+    padding: 5px;
 }
 
 .navbar.pip-footer .col-6 {
@@ -231,4 +233,15 @@ ul>li.navbar-item.active>a.nav-link {
 
 .w90 {
     width: 90%;
+}
+
+.stat-numbers .col-1,
+.stat-numbers .col-2 {
+    background: rgba(16, 253, 0, .15);
+    margin-right: 4px;
+}
+
+.stat-numbers .col-1.transparent,
+.stat-numbers .col-2.transparent {
+    background: transparent;
 }
