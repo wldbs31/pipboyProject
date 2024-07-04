@@ -245,3 +245,80 @@ ul>li.navbar-item.active>a.nav-link {
 .stat-numbers .col-2.transparent {
     background: transparent;
 }
+
+.stat-numbers img {
+    width: 100%;
+    filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(20);
+}
+
+.stat-numbers img.sm-img {
+    max-width: 30px;
+    margin-left: 0px;
+}
+
+.stat-numbers img.helmet-img {
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.stat-numbers img.energy-img {
+    width: 100%;
+}
+
+#status.tab-pane.full {
+    width: 100%;
+    max-width: 100%;
+}
+
+.item-list {
+    float: left;
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+.item-list li a {
+    display: block;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #14fe17;
+    margin-left: 90px;
+    text-decoration: none;
+}
+
+.item-list li a:hover {
+    text-decoration: none;
+    background: #14fe17;
+    color: #272b23;
+}
+
+.tab-pane.full {
+    height: calc(100vh - 180px);
+}
+
+.item-stats {
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+    width: 200px;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.item-stats .row .col-12 {
+    background: rgba(16, 253, 0, .15);
+    margin-bottom: 2px;
+}
+
+.item-stats {
+    margin-bottom: 50px;
+    margin-right: 80px;
+}

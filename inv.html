@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PipBoy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pipboy.app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-toggleable navbar-light">
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav navbar-expand-lg">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">STAT</a>
+                </li>
+                <li class="navbar-item active">
+                    <a href="inv.html" class="nav-link active">INV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        DATA
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        MAP
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        RADIO
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="#status" class="nav-link" data-bs-toggle="tab" role="tab">
+                            WEAPONS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#special" data-bs-toggle="tab" role="tab">
+                            ARMOR
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#perks" class="nav-link" data-bs-toggle="tab" role="tab">
+                            AID
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-pane active full" id="status" role="tabpanel">
+            <ul class="item-list">
+                <li><a href="#" class="44-pistol">.44 Pistol</a></li>
+                <li><a href="#" class="10mm-pistol">10mm Pistol</a></li>
+                <li><a href="#" class="assault-rifle">Assault Rifle</a></li>
+            </ul>
+
+            <div class="item-stats">
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="damage pull-right">48</span>
+                            <div class="pull-left">Damage</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="ammo pull-right">500</span>
+                            <div class="pull-left">Ammo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="fire_rate pull-right">48</span>
+                            <div class="pull-left">Fire Rate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="range pull-right">48</span>
+                            <div class="pull-left">Range</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="accuracy pull-right">48</span>
+                            <div class="pull-left">Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="weight pull-right">48</span>
+                            <div class="pull-left">Weight</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="value pull-right">48</span>
+                            <div class="pull-left">Value</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tab-pane" id="special" role="tabpanel">SPECIAL</div>
+        <div class="tab-pane" id="perks" role="tabpanel">PERKS</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg pip-footer">
+        <div class="row container">
+            <div class="col-3">
+                HP 90/90
+            </div>
+            <div class="col-6">
+                <span>LEVEL 1</span>
+                <div class="level-progress">
+                    <div class="level-progress-indicator" width="70%"></div>
+                </div>
+            </div>
+            <div class="col-3 text-end">
+                AP 50/50
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pipboy.app.js"></script>
+
+</body>
+
+</html>
